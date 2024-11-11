@@ -9,7 +9,7 @@
 
 :root {
 	--main-color: #0A6847;
-	--secondary-main-color: #7ABA78;
+	--secondary-color: #7ABA78;
 	--background-color: #FEF3E2;
 	--contrast-color: #FCDE70;
 }
@@ -38,7 +38,7 @@ body {
 		
 .navigationBar {
 	overflow: hidden;
-	background-color: var(--secondary-main-color);
+	background-color: var(--secondary-color);
 }
 .navigationBar a {
 	float: left;
@@ -66,7 +66,7 @@ body {
 .side {
 	flex: 30%;
 	padding: 20px;
-	border-right: 1px solid var(--secondary-main-color);
+	border-right: 5px solid var(--secondary-color);
 }
 .main {
 	flex: 70%;
@@ -88,7 +88,7 @@ body {
 		flex-direction: column;
 	}
 	.side {
-		border-bottom: 1px solid var(--secondary-main-color)
+		border-bottom: 5px solid var(--secondary-color)
 	}
 }
 
