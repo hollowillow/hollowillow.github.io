@@ -1,107 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title> hollowillow </title>
-<style>
-
-:root {
-	--main-color: #0A6847;
-	--secondary-color: #7ABA78;
-	--background-color: #FEF3E2;
-	--contrast-color: #FCDE70;
-}
-	
- * {
-	box-sizing: border-box;
-}
-
-body {
-	font-family: Helvetica, sans-serif;
-	background-color: var(--background-color); 
-	color: var(--main-color);
-	margin: 0;
-}
-			
-.header {
-	padding: 80px;
-	text-align: center;
-	background: var(--main-color);
-	color: var(--background-color);
-}
-.header h1 {
-	font-size: 40px;
-	font-family: Georgia, serif;
-}
-		
-.navigationBar {
-	overflow: hidden;
-	background-color: var(--secondary-color);
-}
-.navigationBar a {
-	float: left;
-	display: block;
-	text-align: center;
-	padding: 14px 20px;
-	text-decoration: none;
-	color: var(--main-color);
-}
-.navigationBar a.right {
-	float: right;
-}
-.navigationBar a:hover {
-	background-color: var(--contrast-color);
-	color: var(--main-color);
-}
-
-.columnContainer {
-	display: flex;
-	flex-wrap: wrap;
-}
-.columnContainer h2 {
-	font-family: Georgia, serif;
-}
-.side {
-	flex: 30%;
-	padding: 20px;
-	border-right: 3px solid var(--secondary-color);
-}
-.main {
-	flex: 70%;
-	padding: 20px;
-}
-
-.footer {
-	padding: 20px;
-	text-align: center;
-	background: var(--main-color);
-	color: var(--background-color);
-}
-.footer a {
-	color: var(--background-color);
-}
-
-@media screen and (max-width: 700px) {
-	.columnContainer {
-		flex-direction: column;
-	}
-	.side {
-		border-bottom: 3px solid var(--secondary-color)
-	}
-}
-
-@media screen and (max-width: 500px) {
-	.navigationBar a {
-		float: none;
-		width: 100%;
-	}
-}
-	
-</style>
-	
+<link rel="stylesheet" href="style.css">
 </head>
+	
 <body>
 	
 <div class='header'>
