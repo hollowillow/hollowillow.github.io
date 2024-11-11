@@ -57,21 +57,18 @@ body {
 }
 
 .columnContainer {
-	display; -ms-flexbox;
 	display: flex;
-	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
 .columnContainer h2 {
 	font-family: Georgia, serif;
 }
 .side {
-	-ms-flex: 30%;
 	flex: 30%;
 	padding: 20px;
+	border-right: 1px solid var(--secondary-main-color);
 }
 .main {
-	-ms-flex: 70%;
 	flex: 70%;
 	padding: 20px;
 }
@@ -87,16 +84,19 @@ body {
 }
 
 @media screen and (max-width: 700px) {
-  .columnContainer {
-    flex-direction: column;
-  }
+	.columnContainer {
+		flex-direction: column;
+	}
+	.side {
+		border-bottom: 1px solid var(--secondary-main-color)
+	}
 }
 
-@media screen and (max-width: 400px) {
-  .navigationBar a {
-    float: none;
-    width: 100%;
-  }
+@media screen and (max-width: 500px) {
+	.navigationBar a {
+		float: none;
+		width: 100%;
+	}
 }
 	
 </style>
