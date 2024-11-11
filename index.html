@@ -56,13 +56,22 @@ body {
 	color: var(--main-color);
 }
 
+.columnContainer {
+	display: flex;
+	flex-wrap: wrap;
+}
 .main {
+	flex: 70%;
 	padding: 20px;
 }
 .main h2 {
 	font-family: Georgia, serif;
 }
-
+.side {
+	flex: 30%;
+	padding: 20px;
+}
+	
 .footer {
 	padding: 20px;
 	text-align: center;
@@ -72,6 +81,20 @@ body {
 .footer a {
 	color: var(--background-color);
 }
+
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+	
 </style>
 	
 </head>
@@ -87,12 +110,18 @@ body {
 	<a href=''> this too! </a>
 	<a href='' class='right'> they don't work right now tho :( </a>
 </div>
+
+<div class='columnContainer'>
+	<div class='main'>
+		<h2> what to expect? </h2>
+		<p> as this website develops i plan to turn it into a sort of hub for most of my online presence. </p>
+		<p> i find it valuable to have your own little corner of the internet, 
+		and to be able to build community around that. i am planning to regularly blog regarding
+		multiple subjects (most likely a combination of coding, rpgs and music). </p> 
+	</div>
+	<div class='side'>
 	
-<div class='main'>
-	<h2> what to expect? </h2>
-	<p> as this website develops i plan to turn it into a sort of hub for most of my online presence. </p>
-	<p> i find it valuable to have your own little corner of the internet, and to be able to build community around that. 
-	i am planning to regularly blog regarding multiple subjects (most likely a combination of coding, rpgs and music). </p> 
+	</div>
 </div>
 	
 <div class='footer'>
