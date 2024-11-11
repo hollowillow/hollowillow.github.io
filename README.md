@@ -8,5 +8,5 @@ and in some part that is okay,
 but i believe it has taken away from the that old internet vibe of everyone having their own corner of the internet.
 
 a personalised website goes a long way to distinguish yourself from others,
-while bringing all your posts and projects in a single curated space.
+while bringing all your posts and projects together, into a single curated space.
 
