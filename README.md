@@ -16,23 +16,23 @@ i am planning to regularly blog regarding multiple of my favourite subjects (mos
 ```
 :root {
 	--main-color: #0A6847;
-	--secondary-main-color: #7ABA78;
+	--secondary-color: #7ABA78;
 	--background-color: #F6E9B2;
 	--contrast-color: #F3CA52;
 }
 ```
 ```
 :root {
-  --main-color: #E8B6D;
-  --secondary-main-color: #FCDE70;
-  --background-color: #F5F7F8;
-  --contrast-color: #185519;
+	--main-color: #E8B6D;
+	--secondary-color: #FCDE70;
+	--background-color: #F5F7F8;
+	--contrast-color: #185519;
 }
 ```
 ```
 :root {
 	--main-color: #FA4032;
-	--secondary-main-color: #FA812F;
+	--secondary-color: #FA812F;
 	--background-color: #FEF3E2;
 	--contrast-color: #FAB12F;
 }
