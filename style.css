@@ -79,6 +79,7 @@ body {
 		flex-direction: column;
 	}
 	.side {
+		border-right: hidden;
 		border-bottom: 3px solid var(--secondary-color)
 	}
 }
