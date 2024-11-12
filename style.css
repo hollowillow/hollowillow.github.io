@@ -3,6 +3,9 @@
 	--secondary-color: #7ABA78;
 	--background-color: #FEF3E2;
 	--contrast-color: #FCDE70;
+	--main-font: Helvetica, sans-serif;
+	--accent-font: Georgia, serif;
+	--monospace-font: 'Courier New', monospace;
 }
 	
  * {
@@ -10,12 +13,12 @@
 }
 
 body {
-	font-family: Helvetica, sans-serif;
+	font-family: var(--main-font);
 	background-color: var(--background-color); 
 	color: var(--main-color);
 	margin: 0;
 }
-			
+
 .header {
 	padding: 80px;
 	text-align: center;
@@ -24,7 +27,7 @@ body {
 }
 .header h1 {
 	font-size: 40px;
-	font-family: Georgia, serif;
+	font-family: var(--accent-font);
 }
 		
 .navigationBar {
@@ -52,7 +55,7 @@ body {
 	flex-wrap: wrap;
 }
 .columnContainer h2 {
-	font-family: Georgia, serif;
+	font-family: var(--accent-font);
 }
 .side {
 	flex: 30%;
