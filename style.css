@@ -57,6 +57,8 @@ body {
 .columnContainer h2 {
 	font-family: var(--accent-font);
 }
+.columnContainer a {
+	color: var(--secondary-color)
 .side {
 	flex: 30%;
 	padding: 20px;
