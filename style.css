@@ -92,6 +92,8 @@ body {
     line-height: 30px;
 }
 .blogCard a {
+	padding: 10px 20px;
+    border-radius: 10px;
 	display: block;
     background: var(--main-color);
     color: var(--background-color);
