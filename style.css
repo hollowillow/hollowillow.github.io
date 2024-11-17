@@ -77,18 +77,18 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 80px;
 }
-.blogImage {
+.blogCard img {
     width: 100%;
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 10px;
 }
-.blogOverview {
+.blogCard p {
     margin: 10px 0 20px;
     line-height: 30px;
 }
-.buttonDark {
+.blogCard a {
     background: var(--main-color);
     color: var(--background-color);
 }
