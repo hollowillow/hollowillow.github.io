@@ -74,13 +74,15 @@ body {
 
 .blogSection {
 	width: 100%;
-	padding: 15px 5vw;
+	padding: 20px;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 80px;
 }
 .blogCard {
 	background: var(--background-color-dark)
+	padding: 10px 20px;
+	border-radius: 10px;
 }
 .blogCard img {
 	width: 100%;
