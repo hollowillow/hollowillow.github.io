@@ -53,6 +53,9 @@ body {
 .columnContainer {
 	display: flex;
 	flex-wrap: wrap;
+	positon: relative;
+	min-height: 100%;
+	padding-bottom: 60px;
 }
 .columnContainer h2 {
 	font-family: var(--accent-font);
@@ -73,6 +76,8 @@ body {
 .footer {
 	position: absolute;
 	bottom: 0;
+	width: 100%;'
+	height: 60px;
 	padding: 20px;
 	text-align: center;
 	background: var(--main-color);
