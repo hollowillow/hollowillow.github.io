@@ -59,6 +59,7 @@ body {
 }
 .columnContainer a {
 	color: var(--secondary-color)
+}
 .side {
 	flex: 30%;
 	padding: 20px;
