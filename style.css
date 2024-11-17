@@ -29,6 +29,7 @@ body {
 .header h1 {
 	font-size: 40px;
 	font-family: var(--accent-font);
+	word-wrap:break-word;
 }
 		
 .navigationBar {
@@ -120,9 +121,6 @@ body {
 	.side {
 		border-right: none;
 		border-bottom: 3px solid var(--secondary-color)
-	}
-	.header {
-		padding: 20px;
 	}
 }
 
