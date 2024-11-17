@@ -2,6 +2,7 @@
 	--main-color: #0A6847;
 	--secondary-color: #7ABA78;
 	--background-color: #FEF3E2;
+	--background-color-dark: #FDEBCF;
 	--contrast-color: #FCDE70;
 	--main-font: Helvetica, sans-serif;
 	--accent-font: Georgia, serif;
@@ -71,32 +72,32 @@ body {
 }
 
 .blogCard {
-    width: 100%;
-    padding: 50px 5vw;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 80px;
+ 	width: 95%;
+	padding: 50px 5vw;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 80px;
+	background: var(--background-color-dark)
 }
 .blogCard img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 10px;
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 10px;
+	margin-bottom: 10px;
 }
 .blogCard h2 {
 	font-family: var(--accent-font)
 }
 .blogCard p {
-    margin: 10px 0 20px;
-    line-height: 30px;
+	margin: 10px 0 20px;
+	line-height: 30px;
 }
 .blogCard a {
-	padding: 10px 20px;
-    border-radius: 10px;
-	display: block;
-    background: var(--main-color);
-    color: var(--background-color);
+ 	padding: 10px 20px;
+	border-radius: 10px;
+	background: var(--main-color);
+	color: var(--background-color);
 	text-decoration: none;
 }
 
