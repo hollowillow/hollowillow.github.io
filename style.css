@@ -70,6 +70,29 @@ body {
 	padding: 20px;
 }
 
+.blogCard {
+    width: 100%;
+    padding: 50px 5vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 80px;
+}
+.blogImage {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.blogOverview {
+    margin: 10px 0 20px;
+    line-height: 30px;
+}
+.btn.dark{
+    background: var(--main-color);
+    color: var(--background-color);
+}
+
 .footer {
 	padding: 20px;
 	text-align: center;
