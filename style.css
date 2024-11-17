@@ -54,7 +54,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 }
-.columnContainer h2 {
+.columnContainer h1 {
 	font-family: var(--accent-font);
 }
 .columnContainer a {
@@ -84,13 +84,18 @@ body {
     border-radius: 10px;
     margin-bottom: 10px;
 }
+.blogCard h2 {
+	font-family: var(--accent-font)
+}
 .blogCard p {
     margin: 10px 0 20px;
     line-height: 30px;
 }
 .blogCard a {
+	display: block;
     background: var(--main-color);
     color: var(--background-color);
+	text-decoration: none;
 }
 
 .footer {
