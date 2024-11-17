@@ -73,7 +73,7 @@ body {
 
 .blogSection {
 	width: 100%;
-	padding: 50px 5vw;
+	padding: 15px 5vw;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 80px;
