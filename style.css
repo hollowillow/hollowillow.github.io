@@ -80,8 +80,8 @@ body {
 	grid-gap: 80px;
 }
 .blogCard {
-	background: var(--background-color-dark)
-	padding: 10px 20px;
+	background: var(--background-color-dark);
+	padding: 10px;
 	border-radius: 10px;
 }
 .blogCard img {
