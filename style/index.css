@@ -22,9 +22,9 @@ header {
         padding-top: 4rem;
         padding-bottom: 4rem;
         margin: auto;
-        width: 70%;
-        text-align: justify;
-        text-align-last: center;
+        width: 50%;
+        /* text-align: justify; */
+        /* text-align-last: center; */
         font-size: 2rem;
 	font-family: var(--accent-font);
 }
@@ -64,7 +64,7 @@ p a {
 @media only screen and (max-width: 700px) {
 	header {
                 font-size: 1.5rem;
-                word-wrap: normal;
+                width: 70%;
 	}
 	main {
 		width: 70%;
