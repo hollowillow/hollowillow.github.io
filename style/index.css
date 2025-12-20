@@ -1,0 +1,115 @@
+:root {
+        --text-color: #f8f8f9;
+        --bg-color: #16161D;
+        /* --accent-color: #8888a5; */
+        --accent-color: #5f5f7d;
+	--main-font: Helvetica, sans-serif;
+	--accent-font: Georgia, serif;
+	--monospace-font: 'Courier New', monospace;
+}
+
+body {
+	font-family: var(--main-font);
+        background-color: var(--bg-color);
+        color: var(--text-color);
+	margin: 0;
+}
+
+header {
+        padding: 80px;
+        margin: auto;
+        width: 70%;
+        text-align: justify;
+        text-align-last: center;
+        font-size: 200%;
+	font-family: var(--accent-font);
+}
+
+main {
+	/* text-align: center; */
+	/* padding: 20px; */
+        flex: 70%;
+        margin: auto;
+        width: 50%;
+        font-size: 120%;
+        /* bottom: 20%; */
+        padding-bottom: 100px
+}
+
+footer {
+	padding: 40px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+	text-align: center;
+        background: var(--bg-color);
+}
+
+
+a {
+	color: var(--font-color);
+        text-decoration: none;
+}
+
+a:hover {
+	color: var(--accent-color);
+}
+
+p a {
+        text-decoration: underline;
+}
+/* .navigationBar { */
+/* 	overflow: hidden; */
+/* 	background-color: var(--secondary-color); */
+/* } */
+/* .navigationBar a { */
+/* 	float: left; */
+/* 	display: block; */
+/* 	text-align: center; */
+/* 	padding: 14px 20px; */
+/* 	text-decoration: none; */
+/* 	color: var(--main-color); */
+/* } */
+/* .navigationBar a.right { */
+/* 	float: right; */
+/* } */
+/* .navigationBar a:hover { */
+/* 	background-color: var(--contrast-color); */
+/* 	color: var(--main-color); */
+/* } */
+/**/
+/* .columnContainer { */
+/* 	display: flex; */
+/* 	flex-wrap: wrap; */
+/* } */
+/* .columnContainer h2 { */
+/* 	font-family: var(--accent-font); */
+/* } */
+/* .columnContainer a { */
+/* 	color: var(--secondary-color) */
+/* } */
+/* .side { */
+/* 	flex: 30%; */
+/* 	padding: 20px; */
+/* 	border-right: 3px solid var(--secondary-color); */
+/* } */
+/* @media screen and (max-width: 700px) { */
+/* 	.columnContainer { */
+/* 		flex-direction: column; */
+/* 	} */
+/* 	.side { */
+/* 		border-right: none; */
+/* 		border-bottom: 3px solid var(--secondary-color) */
+/* 	} */
+/* 	.header { */
+/* 		padding: 20px; */
+/* 	} */
+/* } */
+/**/
+/* @media screen and (max-width: 400px) { */
+/* 	.navigationBar a { */
+/* 		float: none; */
+/* 		width: 100%; */
+/* 	} */
+/* } */
