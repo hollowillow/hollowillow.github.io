@@ -13,10 +13,10 @@ html {
 }
 
 body {
-	font-family: var(--main-font);
+        font-family: var(--main-font);
         background-color: var(--bg-color);
         color: var(--text-color);
-	margin: auto;
+        margin: auto;
 }
 
 header {
@@ -58,6 +58,7 @@ footer {
         width: 100%;
 	text-align: center;
         background: var(--bg-color);
+        color: var(--soft-color);
 }
 
 
@@ -72,6 +73,21 @@ a:hover {
 
 p a {
         text-decoration: underline;
+}
+
+ul.header {
+        list-style: none;
+        font-size: 2rem;
+	font-family: var(--accent-font);
+	font-weight: bold;
+        margin: auto;
+        padding: 0;
+        margin: 0;
+}
+
+.header li::before {
+        content: ">";
+        padding-right: 1rem;
 }
 
 @media only screen and (max-width: 700px) {
