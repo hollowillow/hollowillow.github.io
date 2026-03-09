@@ -2,6 +2,7 @@
         --text-color: #f8f8f9;
         --bg-color: #16161D;
         --accent-color: #5f5f7d;
+        --soft-color: #4d4d66;
 	--main-font: Helvetica, sans-serif;
 	--accent-font: Georgia, serif;
 	--monospace-font: 'Courier New', monospace;
@@ -27,6 +28,18 @@ header {
         /* text-align-last: center; */
         font-size: 2rem;
 	font-family: var(--accent-font);
+}
+
+h6 {
+        /* padding-top: 4rem; */
+        /* padding-bottom: 4rem; */
+        margin: auto;
+        /* width: 50%; */
+        /* text-align: justify; */
+        /* text-align-last: center; */
+        font-size: 1.2rem;
+	font-family: var(--accent-font);
+        color: var(--soft-color);
 }
 
 main {
