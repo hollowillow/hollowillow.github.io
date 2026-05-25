@@ -1,0 +1,63 @@
+:root {
+  --fg-color: #e9e9e2;
+  --bg-color: #16161d;
+  --dark-bg-color: #0f0f14;
+  --accent-color: #ffc342;
+
+  --main-font: Helvetica, sans-serif;
+  --accent-font: Georgia, serif;
+}
+
+html {
+  background: var(--bg-color);
+  color: var(--fg-color);
+
+  font-family: var(--main-font);
+
+  width: 50%;
+  margin: auto;
+}
+
+body {
+  width: 50%;
+  margin: auto;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  font-size: 1.25rem;
+}
+
+nav li::before {
+  content: ">";
+  /* padding-right: 1rem; */
+}
+
+footer {
+  background: var(--dark-bg-color);
+
+  text-align: center;
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 1.25rem 1rem 1.25rem 1rem;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: var(--accent-font);
+  /* text-align:center; */
+}
+
+a {
+  color: var(--accent-color);
+
+  font-family: var(--accent-font);
+  font-style: italic;
+  text-decoration-style: dashed;
+}
