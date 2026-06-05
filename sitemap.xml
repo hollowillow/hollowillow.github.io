@@ -3,71 +3,73 @@
   <url>
     <loc>https://hollowillow.github.io/</loc>
     <lastmod>2026-06-05</lastmod>
-    <priority>0.8</priority>
+    <priority>1</priority>
   </url>
   <url>
     <loc>https://hollowillow.github.io/blog/</loc>
     <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://hollowillow.github.io/blog/making-a-website/</loc>
     <lastmod>2026-06-05</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://hollowillow.github.io/poetry/</loc>
     <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://hollowillow.github.io/poetry/under-the-weather/</loc>
     <lastmod>2026-06-05</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://hollowillow.github.io/poetry/unspoken/</loc>
     <lastmod>2026-06-05</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://hollowillow.github.io/poetry/haunted-doll/</loc>
     <lastmod>2026-06-05</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://hollowillow.github.io/poetry/artificial-love/</loc>
     <lastmod>2026-06-05</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://hollowillow.github.io/poetry/quieter-nights/</loc>
     <lastmod>2026-06-05</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://hollowillow.github.io/poetry/take-care/</loc>
     <lastmod>2026-06-05</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://hollowillow.github.io/poetry/white-rose/</loc>
     <lastmod>2026-06-05</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://hollowillow.github.io/poetry/rot/</loc>
     <lastmod>2026-06-05</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://hollowillow.github.io/poetry/from-the-mouth-of-a-cannibal/</loc>
     <lastmod>2026-06-05</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://hollowillow.github.io/poetry/frostbite/</loc>
     <lastmod>2026-06-05</lastmod>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
 </urlset>
