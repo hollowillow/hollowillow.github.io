@@ -1,6 +1,7 @@
 :root {
   --fg-color: #e9e9e2;
   --bg-color: #16161d;
+  --light-bg-color: #45455B;
   --dark-bg-color: #0f0f14;
   --accent-color: #ffc342;
 
@@ -85,13 +86,20 @@ hgroup h1 {
   margin-block: 0;
 }
 
+hgroup p {
+  margin-block: 0;
+  font-style: italic;
+  font-size: 1.25rem;
+  font-family: var(--accent-font);
+}
+
 hgroup {
   margin-block: 2rem;
 }
 
 nav ul {
   list-style: none;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 nav li {
@@ -116,4 +124,16 @@ a {
   font-family: var(--accent-font);
   font-style: italic;
   text-decoration-style: dashed;
+}
+
+footer a {
+  font-size: 1rem;
+}
+
+footer li {
+  line-height: 1rem;
+}
+
+hr {
+  border-color: var(--light-bg-color)
 }
